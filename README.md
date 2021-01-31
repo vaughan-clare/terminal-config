@@ -1,9 +1,9 @@
 # terminal-config
 
 # Personal terminal setup
-- Custom Solarized Dark color scheme: modified from https://github.com/tomislav/osx-terminal.app-colors-solarized
-- Meslo LG M Refular for Powerline font: https://github.com/powerline/fonts
-- Agnoster theme: https://github.com/agnoster/agnoster-zsh-theme
+* Custom Solarized Dark color scheme: modified from https://github.com/tomislav/osx-terminal.app-colors-solarized
+* Meslo LG M Refular for Powerline font: https://github.com/powerline/fonts
+* Agnoster theme: https://github.com/agnoster/agnoster-zsh-theme
 
 ## Setup
 1. Install Antigen: https://github.com/zsh-users/antigen
@@ -17,8 +17,19 @@ Run `compaudit` to see list of insecure directories
 Run `sudo chmod -R 755 {path}` to change permissions on directories
 
 # Personal VSCode setup
-- Rouge color scheme
-- Customized IDE behavior and keybindings
+* Rouge color scheme
+* Customized IDE behavior and keybindings
+* Plugins
+  * Docker
+  * ESLint
+  * GitLens — Git supercharged
+  * Jest
+  * Jira and BitBucket (Official)
+  * Markdown All in One
+  * Remote - Containers
+  * vscode-proto3
+  * yaml
+  * Rouge Theme
 
 ## Setup
 1. Navigate to `~/Library/Application Support/Code/User` and paste the files inside this repo's VSCode directory there
