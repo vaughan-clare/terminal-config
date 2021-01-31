@@ -1,0 +1,38 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "diffEditor.renderSideBySide": false,
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "jest.pathToConfig": "./jest.config.js",
+    "jest.pathToJest": "node_modules/jest",
+    "jest.showCoverageOnLoad": true,
+    "window.zoomLevel": 0,
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "atlascode.jira.todoIssues.triggers": [
+        "BUG:",
+        "FIXME:",
+        "ISSUE:"
+    ],
+    "atlascode.bitbucket.explorer.relatedJiraIssues.enabled": false,
+    "atlascode.bitbucket.explorer.relatedBitbucketIssues.enabled": false,
+    "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
+    "atlascode.bitbucket.explorer.refreshInterval": 5,
+    "atlascode.bitbucket.explorer.enabled": false,
+    "atlascode.bitbucket.pipelines.refreshInterval": 5,
+    "atlascode.bitbucket.pipelines.monitorEnabled": false,
+    "atlascode.bitbucket.pipelines.explorerEnabled": false,
+    "atlascode.bitbucket.issues.refreshInterval": 15,
+    "atlascode.bitbucket.issues.monitorEnabled": false,
+    "atlascode.bitbucket.issues.explorerEnabled": false,
+    "atlascode.bitbucket.contextMenus.enabled": false,
+    "atlascode.bitbucket.statusbar.showLogin": false,
+    "atlascode.bitbucket.statusbar.showUser": false,
+    "atlascode.bitbucket.statusbar.showProduct": false,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Rouge"
+}
