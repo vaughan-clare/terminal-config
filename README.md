@@ -1,6 +1,11 @@
 # terminal-config
 
-# Personal terminal setup
+# Personal terminal setup (Frappe)
+* [Catppuccin Frappe](https://github.com/catppuccin/catppuccin) 
+* [Serious Shanns Nerd Font Propo](https://github.com/kaBeech/serious-shanns)
+* Agnoster theme: https://github.com/agnoster/agnoster-zsh-theme
+
+# Personal terminal setup (Solarized)
 * Custom Solarized Dark color scheme: modified from https://github.com/tomislav/osx-terminal.app-colors-solarized
 * Meslo LG M Refular for Powerline font: https://github.com/powerline/fonts
 * Agnoster theme: https://github.com/agnoster/agnoster-zsh-theme
