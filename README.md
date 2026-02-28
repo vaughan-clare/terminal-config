@@ -3,7 +3,21 @@
 # Personal terminal setup (Frappe)
 * [Catppuccin Frappe](https://github.com/catppuccin/catppuccin) 
 * [Serious Shanns Nerd Font Propo](https://github.com/kaBeech/serious-shanns)
-* Agnoster theme: https://github.com/agnoster/agnoster-zsh-theme
+* [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) or [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
+* Terminal command auto-complete from history: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew
+* Git command autocomplete: https://github.com/git/git/blob/master/contrib/completion/git-completion.zsh 
+  * In terminal:
+```
+curl -o ~/.zsh/git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+curl -o ~/.zsh/_git https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+```
+  * In .zshrc:
+```
+fpath=(~/.zsh $fpath)
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+autoload -Uz compinit
+compinit
+```
 
 # Personal terminal setup (Solarized)
 * Custom Solarized Dark color scheme: modified from https://github.com/tomislav/osx-terminal.app-colors-solarized
